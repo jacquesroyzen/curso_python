@@ -1,0 +1,9 @@
+su -postgres
+psql
+create user jroyzen password 'mypw01nt';
+create database Curso owner jroyzen; 
+
+/q
+
+
+jacques:$ psql -h 127.0.01 - U xxxn projeto
